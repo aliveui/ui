@@ -1,0 +1,11 @@
+{
+  "plugins": [
+    "npm",
+    "first-time-contributor",
+    "released"
+  ],
+  "owner": "aliveui",
+  "repo": "aliveui",
+  "name": "Charlotte",
+  "email": "hey.charlotte@icloud.com"
+}
