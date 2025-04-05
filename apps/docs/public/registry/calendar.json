@@ -3,7 +3,7 @@
   "homepage": "https://www.aliveui.com/calendar",
   "name": "calendar",
   "type": "registry:ui",
-  "author": "Hayden Bleasel <hello@haydenbleasel.com>",
+  "author": "Charlotte <hey.charlotte@icloud.com>",
   "registryDependencies": [
     "button",
     "command",

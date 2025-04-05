@@ -3,7 +3,7 @@
   "homepage": "https://www.aliveui.com/relative-time",
   "name": "relative-time",
   "type": "registry:ui",
-  "author": "Hayden Bleasel <hello@haydenbleasel.com>",
+  "author": "Charlotte <hey.charlotte@icloud.com>",
   "registryDependencies": [],
   "dependencies": [
     "@radix-ui/react-use-controllable-state",

@@ -3,7 +3,7 @@
   "homepage": "https://www.aliveui.com/color-picker",
   "name": "color-picker",
   "type": "registry:ui",
-  "author": "Hayden Bleasel <hello@haydenbleasel.com>",
+  "author": "Charlotte <hey.charlotte@icloud.com>",
   "registryDependencies": [
     "button",
     "input",

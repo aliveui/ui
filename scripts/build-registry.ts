@@ -69,7 +69,7 @@ const buildRegistry = async (pkg: string) => {
       homepage: `https://www.aliveui.com/${pkg}`,
       name: pkg,
       type: 'registry:ui',
-      author: 'Hayden Bleasel <hello@haydenbleasel.com>',
+      author: 'Charlotte <hey.charlotte@icloud.com>',
       registryDependencies,
       dependencies,
       devDependencies,
