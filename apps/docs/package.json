@@ -16,6 +16,7 @@
     "@repo/announcement": "workspace:*",
     "@repo/avatar-stack": "workspace:*",
     "@repo/banner": "workspace:*",
+    "@repo/button": "workspace:*",
     "@repo/calendar": "workspace:*",
     "@repo/code-block": "workspace:*",
     "@repo/color-picker": "workspace:*",

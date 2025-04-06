@@ -1,0 +1,74 @@
+---
+title: Button
+description: A styled button based on the shadcn Button primitive.
+icon: MousePointer
+---
+
+<PoweredBy packages={[
+  { name: 'shadcn/ui', url: 'https://ui.shadcn.com/' },
+]} />
+
+<Preview name="button" code={`'use client';
+
+import { Button } from '@/components/ui/alive-ui/button';
+
+const Example = () => (
+  <div className="flex w-full h-screen items-center justify-center gap-4 bg-secondary ">
+    <Button>Button</Button>
+  </div>
+);
+
+export default Example;`} />
+
+## Installation
+
+<Installer packageName="button" />
+
+## Features
+
+- A styled button component built on top of the shadcn Button primitive
+- Custom gradient overlay background effect
+- Precise shadow styling for a modern, polished look
+- Maintains all functionality of the original Button component
+- Sized appropriately for tight UI spaces
+- Responsive touch targets
+
+## Examples
+
+### Basic Usage
+
+<Preview name="button" code={`'use client';
+
+import { Button } from '@/components/ui/alive-ui/button';
+
+const Example = () => (
+  <div className="flex w-full h-screen items-center justify-center gap-4">
+    <Button>Button</Button>
+  </div>
+);
+
+export default Example;`} />
+
+### With Icon
+
+<Preview name="button" code={`'use client';
+
+import { Button } from '@/components/ui/alive-ui/button';
+import { ArrowRightIcon } from 'lucide-react';
+
+const Example = () => (
+  <div className="flex w-full h-screen items-center justify-center gap-4">
+    <Button>
+      Go
+      <ArrowRightIcon className="size-3" />
+    </Button>
+  </div>
+);
+
+export default Example;`} />
+
+## Props
+
+The Button component inherits all props from the shadcn Button component.
+
+<AutoTypeTable path="node_modules/@repo/button/index.tsx" name="ButtonProps" /> 

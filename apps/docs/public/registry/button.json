@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://www.aliveui.com/button",
+  "name": "button",
+  "type": "registry:ui",
+  "author": "Charlotte <hey.charlotte@icloud.com>",
+  "registryDependencies": [
+    "button"
+  ],
+  "dependencies": [
+    "@radix-ui/react-use-controllable-state",
+    "lucide-react"
+  ],
+  "devDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "index.tsx",
+      "content": "import { Button as ShadcnButton, type ButtonProps as ShadcnButtonProps } from '@/components/ui/button';\nimport { cn } from '@/lib/utils';\nimport type { HTMLAttributes } from 'react';\n\nexport type ButtonProps = ShadcnButtonProps & {\n  // Add any additional props here\n};\n\nexport const Button = ({\n  className,\n  ...props\n}: ButtonProps) => (\n  <ShadcnButton\n    className={cn(\n      'flex flex-col justify-center items-center px-[7px] py-[3px] max-h-[22px] w-[48px]',\n      'bg-primary text-primary-foreground font-normal text-xs leading-4',\n      'bg-gradient-to-b from-white/[0.17] to-transparent',\n      'shadow-primary/25 shadow-[0px_1px_2.5px,0px_0px_0px_0.5px]',\n      'rounded-[5px] transition-all',\n      className\n    )}\n    {...props}\n  />\n);\n\n",
+      "target": "components/ui/aliveui/button/index.tsx"
+    }
+  ]
+}
